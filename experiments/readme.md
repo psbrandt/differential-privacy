@@ -1,5 +1,4 @@
-# CSE 544 Final Project
-> ### Differential Privacy in the OMOP CDM
+# Differential Privacy in the OMOP CDM
 
 ## Setup
 
