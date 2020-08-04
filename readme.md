@@ -31,10 +31,6 @@ Note we are using SynPUF `v1.0.1`.
 
 #### Metadata
 
-Download the vocabularies (shortcut shown after manual way).
-
-#### Manual Way
-
 Following step 3 [here](https://github.com/OHDSI/ETL-CMS/blob/master/python_etl/README.md#3-download-cdmv5-vocabulary-files):
 
 [Register](http://athena.ohdsi.org/auth/register) at [athena.ohdsi.org](http://athena.ohdsi.org). Note
