@@ -1,5 +1,4 @@
-# CSE 544 Final Project
-> ### Differential Privacy in the OMOP CDM
+# Differential Privacy in the OMOP CDM
 
 To get your environment set up, follow the instructions below. See the [experiments](experiments) 👨🏻‍🔬 directory for the actual work.
 
@@ -51,12 +50,6 @@ I tried to use <kbd>&</kbd> and it fell over. It only worked when I _removed_ al
 Then, go to [**Download**](http://athena.ohdsi.org/vocabulary/list) and select only the first 8 vocabularies,
 excluding #7 (NDFT) and get the ZIP file. Or bypass their "security" and download the ZIP file
 I already assembled using the link below.
-
-#### ☝🏼 Miss me with that noise
-
-```
-wget -O vocab.zip http://athena.ohdsi.org/api/v1/vocabularies/zip/24c823f7-2e79-4a51-abd6-315c945aa098
-```
 
 #### Prepare Vocabularies
 
@@ -122,7 +115,6 @@ This will take a few minutes.
 #### Load Data
 
 Edit the [`load_CDMv5_synpuf.sql`](sql/load_CDMv5_synpuf.sql) file so that it contains the correct abolute paths to your CSV files, then:
-
 
 ```
 \i /data/sql/load_CDMv5_synpuf.sql
